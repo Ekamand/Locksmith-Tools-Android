@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Change_Log">
+
+
+                        &lt;b>
+        Version 3.1.0
+        &lt;br>&lt;br>&lt;/b>
+        - Removed Themes
+        &lt;br>
+        Tabs Layout with calculator in main tab
+        &lt;br>
+        - Bug fixes and enhancements
+
+        &lt;br> &lt;br>
+
+                &lt;b>
+        Version 3.0.5
+        &lt;br>&lt;br>&lt;/b>
+        - Themes!! in the settings
+        &lt;br>
+        - Bug fixes and enhancements
+
+        &lt;br> &lt;br>
+
+        &lt;b>
+        Version 3.0.3
+        &lt;br>&lt;br>&lt;/b>
+        - Fixed Calculator not starting
+        &lt;br>
+        - Added Multiwindow Support
+        &lt;br>
+        - Security Enhancements (App will close after 60 minutes from the time it started)
+        &lt;br>
+        - General UI enhancements
+        &lt;br> &lt;br>
+
+    </string>
+</resources>

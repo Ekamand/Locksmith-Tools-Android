@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Screen And Display">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="ScreenOn"
+            android:summary="Keep Screen On While App is Running"
+            android:title="Keep Screen On" />
+
+        <ListPreference
+            android:defaultValue="Portrait"
+            android:entries="@array/Orientation"
+            android:entryValues="@array/Orientation"
+            android:key="orientationkey"
+            android:summary="Select The Screen Orientation You&apos;d Like To View The App"
+            android:title="Screen Orientation" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Tax Calculator Settings">
+
+
+        <EditTextPreference
+            android:key="salesTaxPref"
+            android:inputType="numberDecimal|phone"
+            android:digits="0123456789."
+            android:defaultValue="8.75"
+            android:maxLength="5"
+            android:title="Sales Tax"
+            android:summary="Please enter the Sales Tax amount you would like to charge your customers">
+
+        </EditTextPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="serviceCallValueKey"
+            android:summary="Save The Service Call Value For next time you Start the app"
+            android:title="Save Service Call Value" />
+
+<!--        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="currencyformatkey"
+            android:summary="Enable to use currency format"
+            android:title="Use US Dollar currency format" />-->
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Other">
+        <Preference
+            android:enabled="true"
+            android:key="ChangeLog"
+            android:summary="Click To View ChangeLog"
+            android:title="" />
+
+        <Preference
+            android:enabled="true"
+            android:key="ClearData"
+            android:title="CLEAR APP DATA! USE CAUTION"
+            android:summary="" />
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/xml/settings.xml -->

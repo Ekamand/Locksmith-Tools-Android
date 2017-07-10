@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".50"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingTop="0dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/Logo_Discription"
+            android:src="@drawable/header" />
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="2dp">
+
+            <EditText
+                android:id="@+id/Logintext"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="18dp"
+                android:textColor="#ffff4a27"
+                android:focusable="false"
+                android:gravity="center|bottom"
+                android:hint="@string/Password_Hint"
+                android:inputType="numberPassword"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/calculator_delete_button" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".60"
+        android:gravity="bottom"
+        android:background="@drawable/keypad_bg_white">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+
+            <Button
+                android:id="@+id/one"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+>
+
+            <Button
+                android:id="@+id/four"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="6" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="9" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/spacemaker"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:enabled="false"
+                android:text="" />
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/point"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="0.25dp"
+                android:textSize="35dp"
+                android:textColor="#000000"
+                android:background="@drawable/keypad_bg_white"
+                android:text="." />
+
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout><!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/layout/login.xml -->

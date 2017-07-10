@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/invoice_number"/>
+        </TableRow>
+
+        <TableRow android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight=".75"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Name"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight=".25"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Date"
+        android:id="@+id/date"
+        android:inputType="date"/>
+        </TableRow>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:hint="Address"
+            android:id="@+id/editText"/>
+
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="Phone Number"
+                android:ems="10"
+                android:id="@+id/phone_number"
+                android:layout_column="7" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Terms"
+                android:id="@+id/terms"
+                android:layout_column="12" />
+
+
+
+
+
+    </TableLayout>
+    </ScrollView><!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/layout/reciept.xml -->

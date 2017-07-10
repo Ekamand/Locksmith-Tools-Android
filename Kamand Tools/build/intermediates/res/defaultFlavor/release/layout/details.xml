@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    android:paddingLeft="5sp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Data Entered"
+            android:textStyle="bold"
+            android:id="@+id/Title1"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/ServiceCallTextView"
+            style="@style/details_Style"/>
+
+        <TextView
+            android:id="@+id/LaborTextView"
+            style="@style/details_Style"/>
+
+        <TextView
+            android:id="@+id/PartsTextView"
+            style="@style/details_Style"/>
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#4d9f5d" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Totals"
+            android:id="@+id/Title2"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/SalesTaxTextView"
+            style="@style/details_Style"/>
+
+        <TextView
+            android:id="@+id/TotalTextView"
+            style="@style/details_Style"/>
+
+        <View
+            android:id="@+id/View2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#4d9f5d" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Details"
+            android:id="@+id/Title3"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TaxableTextView"
+            style="@style/details_Style"/>
+
+        <TextView
+            android:id="@+id/TotalLabortextView"
+            style="@style/details_Style"/>
+
+        <TextView
+            android:id="@+id/TotalServicestextView"
+            style="@style/details_Style"/>
+
+        <TextView
+            android:id="@+id/ServiceCallPercent"
+            style="@style/details_Style"/>
+
+
+        <TextView
+            android:id="@+id/TaxableServiceCall"
+            style="@style/details_Style"/>
+
+        <TextView
+            android:id="@+id/NonTaxableServiceCall"
+            style="@style/details_Style"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_marginTop="20dp">
+
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="0dp"
+                android:text="Close"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/app_button_bg"
+                android:id="@+id/close" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="0dp"
+                android:text="Add To Calendar"
+                android:textColor="#FFFFFF"
+                android:id="@+id/send"
+                android:background="@drawable/app_button_bg"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView><!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/layout/details.xml -->

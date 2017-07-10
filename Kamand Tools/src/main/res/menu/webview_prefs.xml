@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_client"
+        android:icon="@drawable/ic_add"
+        android:showAsAction="ifRoom"
+        android:title="Add Client"
+        android:visible="false" />
+    <item
+        android:id="@+id/add_item"
+        android:icon="@drawable/ic_add"
+        android:showAsAction="ifRoom"
+        android:title="Add a Price List Item"
+        android:visible="false" />
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh"
+        android:showAsAction="ifRoom"
+        android:title="Refresh Page"
+        android:visible="true" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit"
+        android:showAsAction="ifRoom"
+        android:title="Exit" />
+
+</menu>

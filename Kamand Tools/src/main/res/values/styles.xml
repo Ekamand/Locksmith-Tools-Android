@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/action_bar_theme</item>
+
+        <item name="android:actionBarTabBarStyle">@style/MyTheme.ActionBar.TabBar</item>
+        <item name="android:actionBarTabStyle">@style/MyTheme.ActionBar.TabView</item>
+        <item name="android:actionBarTabTextStyle">@style/MyTheme.ActionBar.TabText</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarSize">45dp</item>
+    </style>
+
+    <style name="action_bar_theme" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:background">#164A53</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/ActionBar_TextColor</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TabBar" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:background">#164A53</item>
+
+
+
+    </style>
+
+    <style name="MyTheme.ActionBar.TabText" parent="android:style/Widget.Holo.ActionBar.TabText">
+        <!-- This is a WHITE tab color -->
+        <item name="android:textColor">@color/selector_tab_text</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TabView" parent="android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_bar_background</item>
+        <item name="android:minHeight">45dp</item>
+    </style>
+
+
+</resources>

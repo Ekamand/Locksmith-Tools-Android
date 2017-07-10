@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/Codes"
+            style="@style/Dashboard_Button_Style_red"
+            android:drawableTop="@drawable/lockcodes"
+            android:textColor="#FFFFFF"
+            android:text="Codes Online"/>
+
+        <Button
+            android:id="@+id/RandH"
+            style="@style/Dashboard_Button_Style_red"
+            android:drawableTop="@drawable/rh"
+            android:textColor="#FFFFFF"
+            android:text="RH Wholesale"/>
+
+
+            <Button
+                android:id="@+id/PriceListButton"
+                style="@style/Dashboard_Button_Style_red"
+                android:drawableTop="@drawable/prices"
+                android:textColor="#FFFFFF"
+                android:text="Price List"></Button>
+
+            <Button
+                android:id="@+id/NewAccount"
+                style="@style/Dashboard_Button_Style_red"
+                android:drawableTop="@drawable/share_account_form"
+                android:textColor="#FFFFFF"
+                android:text="Send Account Form"/>
+
+        <Button
+            android:id="@+id/PrimusCustomers"
+            style="@style/Dashboard_Button_Style_red"
+            android:drawableTop="@drawable/primus"
+            android:textColor="#FFFFFF"
+            android:text="Primus Client List"/>
+
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/layout/dashboard_fragment.xml -->

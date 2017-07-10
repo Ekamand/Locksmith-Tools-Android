@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="Orientation">
+        <item>System</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="ActionBar_TextColor">#FFFFFF</color>
+    <color name="general_focused_red">#b15446</color>
+    <color name="general_normal_red">#b15446</color>
+    <color name="general_pressed_red">#b15446</color>
+    <color name="general_stroke_1">#FF1b599c</color>
+    <color name="general_stroke_4">#FFF7C210</color>
+    <color name="keypad_focused">#ffdddddd</color>
+    <color name="keypad_normal">#fff0f0f0</color>
+    <color name="keypad_pressed">#ffdddddd</color>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Activity_Title">Tax Calculator</string>
+    <string name="Admin_DashBord_Name">Admin DashBoard</string>
+    <string name="App_Version_Title">Kamand Tools Version</string>
+    <string name="Calculator_NotFound_Exception_Toast">Unable to launch activity. Please Contact
+        Developer!</string>
+    <string name="Calendar_Market_Link">market://details?id=com.google.android.calendar</string>
+    <string name="Catalog_Button">Catalog</string>
+    <string name="ChangeLog_Title">Kamand Tools Change Log</string>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/changelog.xml -->
+    <eat-comment/>
+    <string name="Change_Log">
+
+
+                        &lt;b>
+        Version 3.1.0
+        &lt;br>&lt;br>&lt;/b>
+        - Removed Themes
+        &lt;br>
+        Tabs Layout with calculator in main tab
+        &lt;br>
+        - Bug fixes and enhancements
+
+        &lt;br> &lt;br>
+
+                &lt;b>
+        Version 3.0.5
+        &lt;br>&lt;br>&lt;/b>
+        - Themes!! in the settings
+        &lt;br>
+        - Bug fixes and enhancements
+
+        &lt;br> &lt;br>
+
+        &lt;b>
+        Version 3.0.3
+        &lt;br>&lt;br>&lt;/b>
+        - Fixed Calculator not starting
+        &lt;br>
+        - Added Multiwindow Support
+        &lt;br>
+        - Security Enhancements (App will close after 60 minutes from the time it started)
+        &lt;br>
+        - General UI enhancements
+        &lt;br> &lt;br>
+
+    </string>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Change_Log_Button_Text">Thanks</string>
+    <string name="Clear_Button_Text">C</string>
+    <string name="Codes_Button">Codes Online</string>
+    <string name="DashBord_Name">DashBoard</string>
+    <string name="Date_Text">Date</string>
+    <string name="DeFocused_Item_Text_Color">#FFFFFF</string>
+    <string name="Digits_Text_Color">#00B3FF</string>
+    <string name="Exit_Alert">Please Select the action you would like to preform.</string>
+    <string name="Exit_Alert_Negative_Button">Sign Out</string>
+    <string name="Exit_Alert_Neutral_Button">Exit Application</string>
+    <string name="Exit_Alert_Positive_Button">Stay Here</string>
+    <string name="Exit_Alert_Title">Exit Kamand Tools?</string>
+    <string name="Focused_Item_Text_Color">#4d9f5d</string>
+    <string name="Labor_Text">Labor</string>
+    <string name="Lock_Codes_Link">http://lockcodes.com/cod/index.htm</string>
+    <string name="Login_Button">Login</string>
+    <string name="Logo_Discription">Kamand Locksmith Logo</string>
+    <string name="New_Account_Form_Button">Send New Account Form</string>
+    <string name="New_Price_List_Item_Button">Add A New Price List Item</string>
+    <string name="New_Price_List_Item_Link">        https://docs.google.com/a/kamandlocksmith.com/spreadsheet/viewform?formkey=dF9LT2VETU4wNm9BdW5kWURfVFJlQlE6MQ#gid=1</string>
+    <string name="Parts_Text">Parts</string>
+    <string name="Password_Hint">Login Code</string>
+    <string name="Price_List_Button">Price List</string>
+    <string name="Price_List_Link">        https://docs.google.com/a/kamandlocksmith.com/spreadsheet/pub?key=0AhJ99i-rF2RkdF9LT2VETU4wNm9BdW5kWURfVFJlQlE&amp;single=true&amp;gid=1&amp;output=html</string>
+    <string name="Primus_Client_List_Button">Primus Client List</string>
+    <string name="Primus_Clients_Link">        https://docs.google.com/spreadsheet/pub?key=0AhJ99i-rF2RkdFVKd1VJMXh4MXpfSE4tblNnbEFTZ2c&amp;single=true&amp;gid=0&amp;output=html</string>
+    <string name="Primus_Form_Link">        https://spreadsheets.google.com/spreadsheet/viewform?formkey=dFVKd1VJMXh4MXpfSE4tblNnbEFTZ2c6MQ</string>
+    <string name="RH_Button">R&amp;H WholeSale Supply</string>
+    <string name="RH_Link">http://www.plsgroup.com/(S(prdhn1efc2of4yimrgiapy45))/r&amp;h/default.aspx</string>
+    <string name="Reset_Alert">Are you sure you want to clear all app data? \n \n
+        This will Clear All Saved
+    data and preferences. \n\n
+        This function should be used only when problems arise!
+        \n \n *** PLEASE USE CAUSION ***</string>
+    <string name="Reset_Alert_Negative_Button">Yes! Erase Everything!</string>
+    <string name="Reset_Alert_Neutral_Button">Exit Application</string>
+    <string name="Reset_Alert_Positive_Button">No I Changed My Mind</string>
+    <string name="Reset_Alert_Title">Are you Sure?</string>
+    <string name="SalesTax_Text">Sales Tax</string>
+    <string name="Schlage_Button">Schlage A</string>
+    <string name="Schlage_Link">        https://docs.google.com/file/d/0B_8RvkEGWQbyWFB3Q1kxLWNkZDQ/edit?usp=sharing</string>
+    <string name="ServiceCall_Text">Service Call</string>
+    <string name="Square_Market_Link">market://details?id=com.squareup</string>
+    <string name="Text_color">#FFFFFF</string>
+    <string name="Timer_Error_Text">"There was an error with Timer! Please Contact Developer"</string>
+    <string name="WebView_Exit_Alert">All UNSAVED information will be lost. Do you still want to
+        Exit</string>
+    <string name="WebView_Exit_Alert_Negative_Button">Exit</string>
+    <string name="WebView_Exit_Alert_Positive_Button">Stay Here</string>
+    <string name="WebView_Exit_Alert_Title">WARNING!</string>
+    <string name="Webview_Load_Title">Loading …</string>
+    <string name="app_name">Kamand Tools</string>
+    <string name="directory_appBase">Test_Directory</string>
+    <string name="less_than_1">#700000</string>
+    <string name="less_than_10">#FF9900</string>
+    <string name="more_than_10">#4d9f5d</string>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/action_bar_theme</item>
+
+        <item name="android:actionBarTabBarStyle">@style/MyTheme.ActionBar.TabBar</item>
+        <item name="android:actionBarTabStyle">@style/MyTheme.ActionBar.TabView</item>
+        <item name="android:actionBarTabTextStyle">@style/MyTheme.ActionBar.TabText</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/dashboard_fragment_style.xml -->
+    <eat-comment/>
+    <style name="Dashboard_Button_Style_red">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#4d9f5d</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal|center</item>
+        <item name="android:background">@drawable/dashboard_btn_bg</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+           
+    </style>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/tax_calculator_style.xml -->
+    <eat-comment/>
+    <style name="Date_Text_Style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">right</item>
+        <item name="android:text">"@string/Date_Text"</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#164A53</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:paddingRight">5dp</item>
+
+    </style>
+    <style name="EditText_Style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">.65</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:maxLength">9</item>
+        <item name="android:gravity">center</item>
+        <item name="android:selectAllOnFocus">false</item>
+
+    </style>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MyTheme.ActionBar.TabBar" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:background">#164A53</item>
+
+
+    </style>
+    <style name="MyTheme.ActionBar.TabText" parent="android:style/Widget.Holo.ActionBar.TabText">
+        <!-- This is a WHITE tab color -->
+        <item name="android:textColor">@color/selector_tab_text</item>
+    </style>
+    <style name="MyTheme.ActionBar.TabView" parent="android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_bar_background</item>
+    </style>
+    <style name="action_bar_theme" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:background">#164A53</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/details_activity_style.xml -->
+    <eat-comment/>
+    <style name="details_Style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Text</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+
+
+    </style>
+    <!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/ActionBar_TextColor</item>
+    </style>
+</resources>

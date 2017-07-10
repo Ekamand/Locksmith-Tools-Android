@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PushLinkAndroid-5.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Kamand Tools/libs/PushLinkAndroid-5.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ActionBar_TextColor">#FFFFFF</color>
+
+    *****************   KEYPAD COLORS  ******************
+    <color name="keypad_normal">#fff0f0f0</color>
+    <color name="keypad_focused">#ffdddddd</color>
+    <color name="keypad_pressed">#ffdddddd</color>
+    <color name="general_stroke_4">#FFF7C210</color>
+
+    *****************************************************
+
+    *****************   MAIN  ***************************
+
+    *****  RED  *****
+    <color name="general_normal_red">#b15446</color>
+    <color name="general_focused_red">#b15446</color>
+    <color name="general_pressed_red">#b15446</color>
+    <color name="general_stroke_1">#FF1b599c</color>
+
+
+
+</resources>

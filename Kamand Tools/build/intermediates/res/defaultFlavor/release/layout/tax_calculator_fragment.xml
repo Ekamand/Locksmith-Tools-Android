@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff0f0f0"
+
+
+        android:paddingTop="0dp"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <!--            <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#4d9f5d" />-->
+            <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+            <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/ResultLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:background="#164A53"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/SalesTax"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="13dp"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF"/>
+
+                        <TextView
+                            android:id="@+id/Total"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="13dp"
+                            android:textSize="25dp"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#ff106510" />
+
+                    <ImageButton
+                        android:id="@+id/clear"
+
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginRight="0dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:src="@drawable/calculator_delete_button"
+                        android:background="@android:color/transparent" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/date_textview"
+                style="@style/Date_Text_Style"/>
+            <LinearLayout
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:text="@string/ServiceCall_Text"
+                        android:textSize="22dp"
+                        android:layout_weight=".35"/>
+
+
+                    <EditText
+                        android:id="@+id/ServiceCallEditText"
+                        style="@style/EditText_Style" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:text="@string/Labor_Text"
+                        android:textSize="22dp"
+                        android:layout_weight=".35"/>
+
+                    <EditText
+                        android:id="@+id/LaborEditText"
+                        style="@style/EditText_Style" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:text="@string/Parts_Text"
+                        android:textSize="22dp"
+                        android:layout_weight=".35"/>
+
+                    <EditText
+                        android:id="@+id/PartsEditText"
+                        style="@style/EditText_Style"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </TableLayout>
+
+        <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+        <!--////////////////////  Keypad //////////////////////-->
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".60"
+            android:gravity="bottom"
+            android:background="@drawable/keypad_bg_white">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+
+                <Button
+                    android:id="@+id/one"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/two"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/three"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+                >
+
+                <Button
+                    android:id="@+id/four"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/five"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/six"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="6" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/seven"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/eight"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/nine"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="9" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+
+
+                <Button
+                    android:id="@+id/zero"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="0" />
+                <Button
+                    android:id="@+id/doublezero"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/keypad_bg_white"
+                    android:text="00" />
+
+
+
+                <ImageButton
+                    android:id="@+id/next"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#ffd7d7d7"
+                    android:background="@drawable/keypad_bg_white"
+                    android:src="@drawable/next" />
+
+                <ImageButton
+                    android:id="@+id/last"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="0.25dp"
+                    android:textSize="35dp"
+                    android:textColor="#ffd7d7d7"
+                    android:background="@drawable/keypad_bg_white"
+                    android:src="@drawable/back"
+                    android:visibility="gone" />
+
+
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/Users/Kamand/Documents/WorkSpace/KamandTools/Kamand%20Tools/src/main/res/layout/tax_calculator_fragment.xml -->
